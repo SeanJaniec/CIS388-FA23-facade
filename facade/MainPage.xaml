@@ -5,7 +5,7 @@
              Title="#facade"
              >
 
-    <ScrollView>
+    <ScrollView BackgroundColor="Black">
         <Grid Padding="0" RowSpacing="16">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
@@ -16,7 +16,7 @@
 
 
             <!--<RoundRectangle Grid.Row="0" Fill="#facade" CornerRadius="48" MaximumHeightRequest="150"/>-->
-            <StackLayout HorizontalOptions="Fill" BackgroundColor="#facade" Padding="8" Grid.Row="0" Orientation="Horizontal"  >
+            <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="#facade" Grid.Row="0" Margin="20" Orientation="Horizontal"  >
 
                 <Label Text="#" FontSize="60" VerticalOptions="Center" />
                 <Label Text="FACADE"
@@ -26,7 +26,7 @@
 
             </StackLayout>
 
-            <Grid Padding="12" Grid.Row="1" RowSpacing="12" ColumnSpacing="12">
+            <Grid Padding="12" Grid.Row="1" RowSpacing="12" ColumnSpacing="12" BackgroundColor="Black">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -40,14 +40,14 @@
 
                 <Button Grid.Row="0"
                     Grid.Column="0"
-                    Text="#beaded"
-                    BackgroundColor="#beaded"
+                    Text="#deface"
+                    BackgroundColor="#deface"
                     FontSize="16"
                     IsEnabled="false "/>
                 <Button Grid.Row="0"
                     Grid.Column="1"
-                    Text="#fadedd"
-                    BackgroundColor="#fadedd"
+                    Text="#decafe"
+                    BackgroundColor="#decafe"
                     FontSize="16"
                     IsEnabled="false "/>
                 <Button Grid.Row="0"
@@ -60,7 +60,7 @@
                 <Button Grid.Row="1"
                     Grid.Column="0"
                     Text=""
-                    BackgroundColor="Transparent"
+                    BackgroundColor="#666"
                     BorderColor="#111"
                     BorderWidth="1"
                     FontSize="16"
@@ -68,7 +68,7 @@
                 <Button Grid.Row="1"
                     Grid.Column="1"
                     Text=""
-                    BackgroundColor="Transparent"
+                    BackgroundColor="#666"
                     BorderColor="#111"
                     BorderWidth="1"
                     FontSize="16"
@@ -76,7 +76,7 @@
                 <Button Grid.Row="1"
                     Grid.Column="2"
                     Text=""
-                    BackgroundColor="Transparent"
+                    BackgroundColor="#666"
                     BorderColor="#111"
                     BorderWidth="1"
                     FontSize="16"
@@ -84,7 +84,7 @@
 
             </Grid>
 
-            <Grid Padding="12" Grid.Row="2" RowSpacing="12" ColumnSpacing="12">
+            <Grid Padding="12" Grid.Row="2" RowSpacing="12" ColumnSpacing="12" BackgroundColor="Black">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -169,7 +169,7 @@
                     FontSize="32"
                 >
                     <Button.Shadow>
-                        <Shadow Brush="Gray"
+                        <Shadow Brush="gray"
                                 Offset="0,0"
                                 Radius="5"
                                 Opacity="0.5" />
@@ -181,7 +181,7 @@
                     WidthRequest="60"
                     HeightRequest="60"
                     BackgroundColor="Transparent"
-                    TextColor="#333"
+                    TextColor="white"
                     BorderWidth="0"
                     FontSize="36"
                 />
