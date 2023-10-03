@@ -1,54 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿ ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="facade.GameOverPage"
              Title="GameOverPage">
-    <VerticalStackLayout Padding="20" BackgroundColor="BLACK" >
-
-        
-            <Label
-          BackgroundColor="Black"
-          x:Name="ResultLabel"
-          Text="{Binding Result}"
-          FontSize="65"
-          FontAttributes="Bold"
-          VerticalOptions="Center" 
-          HorizontalOptions="Center"
-          Padding="29, 130, 29, 130"
-          TextColor="red"
-          />
-        
-
-
+    <VerticalStackLayout>
         <Label
-            BackgroundColor="#FACADE"
-            Text="The Secret color was: #Facade"
-            Padding="10, 20, 10, 20"
-            Margin="10"
-            FontSize="30"
-            FontAttributes="Bold"
+            x:Name="ResultLabel"
+            Text="{Binding Result}"
+            FontSize="Title"
             VerticalOptions="Center" 
-            HorizontalOptions="Center"
-        />
-
-        <Grid Padding="8,20,8,20" >
-            <Button Grid.Row="1"
-                Grid.Column="0"
-                Text="Play Again!"
-                BackgroundColor="#666"
-                BorderColor="#111"
-                BorderWidth="1"
-                FontSize="40"
-                IsEnabled="false "
-                TextColor="White"
-                HorizontalOptions="Fill"  
-                    />
-                
-        </Grid>
-
-            
-
+            HorizontalOptions="Center" />
     </VerticalStackLayout>
-
-
 </ContentPage>
